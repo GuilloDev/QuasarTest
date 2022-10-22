@@ -1599,7 +1599,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bf47c22a43f410042bb2ceed8035d717, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  host: http://localhost/quasartest/Test/controller/
+  host: http://localhost/quasartest/login.php
   answerDB: 
   uiControl: {fileID: 1580403821}
   userLog: {fileID: 536026802}
@@ -4726,7 +4726,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 35.35
+  m_fontSize: 35.3
   m_fontSizeBase: 24
   m_fontWeight: 400
   m_enableAutoSizing: 1

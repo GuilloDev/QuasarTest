@@ -58,7 +58,7 @@ public class DatabaseManager : MonoBehaviour
     }
     public void Login()
     {
-        string url = host + "controller.php?page=login";
+        string url = host /*+ "controller.php?page=login"*/;
         WWWForm form = new WWWForm();
         form.AddField("_email", uiControl.emailL.text);
         form.AddField("_password", uiControl.passwordL.text);

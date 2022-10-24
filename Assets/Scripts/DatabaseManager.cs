@@ -70,6 +70,7 @@ public class DatabaseManager : MonoBehaviour
     //Database call to insert user data
     private IEnumerator WaitForRequestInsert(UnityWebRequest _request)
     {
+        _request.timeout = 0;
         yield return _request.SendWebRequest();
 
         //check for errors
@@ -91,6 +92,7 @@ public class DatabaseManager : MonoBehaviour
     //Database call to select user data
     private IEnumerator WaitForRequestSelect(UnityWebRequest _request)
     {
+        _request.timeout = 0;
         yield return _request.SendWebRequest();
         string[] finalString = new string[0];
 
